@@ -5,4 +5,5 @@ The idea behind was to have a fresh, revertible Virtual Box environment. This ba
 
 ## How to run
 no parameters, all variables defined inside
+
 ./restore_all_vbox_vms.sh
