@@ -36,7 +36,7 @@ fi
 
 # restore "$snapname" on all nodes
 for n in {1..5}; do
-  VBoxManage startvm "$vmname$n" > /dev/null 2>&1
+  VBoxManage startvm --type=headless "$vmname$n" > /dev/null 2>&1
 done
 
 ec=$?
